@@ -1,68 +1,216 @@
-#+TITLE: index.org
+#+TITLE: index.org<learning python>
+#+STARTUP: content num
 
-* learning python
+* part 1 getting started
+** a python q&a session
+*** why do people use python?
+**** software quality
+**** developer productivity
+*** is python a "scripting language"?
+*** Ok, but what's sthe downside?
+*** who uses python today?
+*** What can I do with python?
+**** systems programming
+**** guis and ui
+**** internet web scripting
+**** component integration
+**** database access
+**** rapid prototyping
+**** numberic and scientific programming
+**** and more: ai, games, images, qa, excell, apps
+*** what are python's technical strengths?
+*** chapter summary
+*** test your knowledge: quiz
+*** test your knowledge: answers
+** how python runs programs
+*** chapter summary
+*** test your knowledge: quiz
+*** test your knowledge: answers
+** how you run programs
+*** chapter summary
+*** test your knowledge: quiz
+*** test your knowledge: answers
+*** test your knowledge: part 1 exercises
+* part 2 objects and operations
+** introducing python objects
 
+#+begin_quote
+This chapter begins our tour of the Python language. In an informal sense, in Python we do things with stuff. “Things” take the form of operations like addition and concatenation, and “stuff ” refers to the objects on which we perform those operations. In this part of the book, our focus is on that stuff, and the things our programs can do with it.
+#+end_quote
 
-- [[/media/tyler/refs/pdf/learningpython6thedition.pdf][text]]
-- costs $80!
-- published 2025
-- Mark Lutz
+*** the python conceptual hierarchy
+*** why use built-in objects?
+*** python's core object types
+*** numbers
+*** strings
+**** sequence operations
+**** immutability
+**** type-specific methods
+**** getting help
+**** other ways to code strings
+**** unicode strings
+*** lists
 
-** part 1 getting started
-*** a python q&a session
-**** why do people use python?
-***** software quality
-***** developer productivity
-**** is python a "scripting language"?
-maybe.
-**** ok, but what's the downside?
-execution speed
-**** who uses python today?
-bro?
-**** what can I do with python?
-***** systems programming
-***** guis and uis
-***** internet and web scripting
-***** component integration
-***** database access
-***** rapid prototyping
-***** numberic and scientific programming
-***** and more: ai, games, images, qa, excell, apps
-
-**** what are python's technical strengths?
-***** it's object-oriented and fuctional
-***** it's free and open
-***** it's portable
-***** it's powerful
-****** dynamic typing
-****** automatic memory management
-****** programming-in-the-large support
-****** built-in object types
-****** built-in tools
-****** library utilities
-****** third-party utilities
-***** it's mixable
-***** it's relatively easy to use
-***** it's relatively easy to learn
-**** chapter summary
-**** test your knowledge: quiz
-*** how python runs programs
-*** how you run programs
-** part 2 objects and operations
-*** introducing python objects
-*** numbers and expressions
-*** the dynamic typing interlude
-*** string fundamentals
-*** lists and dictionaries
-*** tuples, files, and everything else
-** part 3 statements and syntax
-** part 4 functions and generators
-** part 5 modules and packages
-*** modules: the big picture
-** part 6 classes and oop
-** part 7 exceptions
-*** exception basics
-** part 8 advanced topics
-*** unicode and byte strings
-** part 9 appendixes
+*** dictionaries
+*** tuples
+**** why tuples?
+*** files
+*** other object types
+*** chapter summary
+*** test your knowledge: quiz
+*** test your knowledge: answers
+** numbers and expressions
+*** chapter summary
+*** test your knowledge: quiz
+*** test your knowledge: answers
+** the dynamic typing interlude
+*** chapter summary
+*** test your knowledge: quiz
+*** test your knowledge: answers
+** string fundamentals
+*** chapter summary
+*** test your knowledge: quiz
+*** test your knowledge: answers
+** lists and dictionaries
+*** chapter summary
+*** test your knowledge: quiz
+*** test your knowledge: answers
+** tuples, files, and everything else
+*** chapter summary
+*** test your knowledge: quiz
+*** test your knowledge: answers
+* part 3 statements and syntax
+** introducing python statments
+*** chapter summary
+*** test your knowledge: quiz
+*** test your knowledge: answers
+** assignments, expressions, and prints
+*** chapter summary
+*** test your knowledge: quiz
+*** test your knowledge: answers
+** if and match selections
+*** chapter summary
+*** test your knowledge: quiz
+*** test your knowledge: answers
+** ~while~ and ~for~ loops
+*** chapter summary
+*** test your knowledge: quiz
+*** test your knowledge: answers
+** iterations and comprehensions
+*** chapter summary
+*** test your knowledge: quiz
+*** test your knowledge: answers
+** the documentation interlude
+*** chapter summary
+*** test your knowledge: quiz
+*** test your knowledge: answers
+* part 4 functions and generators
+** function basics
+*** chapter summary
+*** test your knowledge: quiz
+*** test your knowledge: answers
+** scopes
+*** chapter summary
+*** test your knowledge: quiz
+*** test your knowledge: answers
+** arguments
+*** chapter summary
+*** test your knowledge: quiz
+*** test your knowledge: answers
+** function odds and ends
+*** chapter summary
+*** test your knowledge: quiz
+*** test your knowledge: answers
+** comprehensions and generators
+*** chapter summary
+*** test your knowledge: quiz
+*** test your knowledge: answers
+** the benchmark interlude
+*** chapter summary
+*** test your knowledge: quiz
+*** test your knowledge: answers
+* part 5 modules and packages
+** modules: the big picture
+*** chapter summary
+*** test your knowledge: quiz
+*** test your knowledge: answers
+** module coding basics
+*** chapter summary
+*** test your knowledge: quiz
+*** test your knowledge: answers
+** module packages
+*** chapter summary
+*** test your knowledge: quiz
+*** test your knowledge: answers
+** module odds and ends
+*** chapter summary
+*** test your knowledge: quiz
+*** test your knowledge: answers
+* part 6 classes and oop
+** oop: the big picture
+*** chapter summary
+*** test your knowledge: quiz
+*** test your knowledge: answers
+** class coding basics
+*** chapter summary
+*** test your knowledge: quiz
+*** test your knowledge: answers
+** a more realistic example
+*** chapter summary
+*** test your knowledge: quiz
+*** test your knowledge: answers
+** class coding details
+*** chapter summary
+*** test your knowledge: quiz
+*** test your knowledge: answers
+** operator overloading
+*** chapter summary
+*** test your knowledge: quiz
+*** test your knowledge: answers
+** designing with classes
+*** chapter summary
+*** test your knowledge: quiz
+*** test your knowledge: answers
+** class odds and ends
+*** chapter summary
+*** test your knowledge: quiz
+*** test your knowledge: answers
+* part 7 exceptions
+** exception basics
+*** chapter summary
+*** test your knowledge: quiz
+*** test your knowledge: answers
+** exception coding details
+*** chapter summary
+*** test your knowledge: quiz
+*** test your knowledge: answers
+** excpetion objects
+*** chapter summary
+*** test your knowledge: quiz
+*** test your knowledge: answers
+** exception odds and ends
+*** chapter summary
+*** test your knowledge: quiz
+*** test your knowledge: answers
+* part 8 advanced topics
+** unicode and byte strings
+*** chapter summary
+*** test your knowledge: quiz
+*** test your knowledge: answers
+** managed attributes
+*** chapter summary
+*** test your knowledge: quiz
+*** test your knowledge: answers
+** decorators
+*** chapter summary
+*** test your knowledge: quiz
+*** test your knowledge: answers
+** metaclasses and inheritance
+*** chapter summary
+*** test your knowledge: quiz
+*** test your knowledge: answers
+** all good things
+* part 9 appendixes
+** A platform usage tips
+** B solutions to end-of-part exercises
 
