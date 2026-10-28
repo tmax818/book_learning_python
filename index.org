@@ -1,16 +1,46 @@
 #+TITLE: index.org<learning python>
-#+STARTUP: content num
+#+STARTUP: content 
+#+OPTIONS: num:1
 
 * part 1 getting started
-** a python q&a session
+** chapter 1: a python q&a session
 *** why do people use python?
+- [[software quality]]
+- [[developer productivity]]
+- program portability
+- application support
+- component integration
+- love of craft
+
+  
 **** software quality
+
+
 **** developer productivity
 *** is python a "scripting language"?
+- "Maybe."
+- "object-oriented scripting language"
+
+#+begin_quote
+A general-purpose programming language that blends procedural, functional, and object-oriented paradigms and accelerates software development by reducing complexity.
+#+end_quote
+
 *** Ok, but what's sthe downside?
 *** who uses python today?
 *** What can I do with python?
+
+#+begin_quote
+Commercial applications may be compelling, but people also use Python for all sorts of real-world, day-in/day-out tasks, whether for profit, need, hobby, or fun. In fact, as a general-purpose language, Python’s roles are virtually unlimited: you can use it for everything from gaming and website development to robotics and content management.
+#+end_quote
+
 **** systems programming
+
+#+begin_quote
+Python’s built-in interfaces to operating-system services make it ideal for writing portable and maintainable system-administration utilities—sometimes called shell or command-line tools, though they may be used in numerous ways. Python programs can search files and directory trees, launch and configure other programs, do parallel processing with processes, threads, and coroutines, and more.
+
+Python’s standard library comes with Portable Operating System Interface (POSIX) bindings and support for all the usual OS tools, including environment variables, files, sockets, pipes, processes, threads, regular-expression pattern matching, command-line arguments, standard-stream interfaces, shellcommand launchers, filename expansion, ZIP file utilities, and XML, JSON, and CSV parsers. In addition, the bulk of Python’s system interfaces are designed to be portable; for example, a script that copies directory trees typically runs unchanged on all platforms that host Python.
+#+end_quote
+
 **** guis and ui
 **** internet web scripting
 **** component integration
@@ -22,194 +52,245 @@
 *** chapter summary
 *** test your knowledge: quiz
 *** test your knowledge: answers
-** how python runs programs
+** chapter 2: how python runs programs
+*** introducing the python interpreter
+*** program execution
+**** the programmer's view
+**** python's view
+*** execution-model variations
+**** python implementation alternatives
+**** standalone executables
+**** future possibilities
 *** chapter summary
 *** test your knowledge: quiz
 *** test your knowledge: answers
-** how you run programs
+** chapter 3: how you run programs
+*** installing python
+*** interactive code
+*** program files
+*** other ways to run files
+*** which option should I use?
 *** chapter summary
 *** test your knowledge: quiz
 *** test your knowledge: answers
 *** test your knowledge: part 1 exercises
 * part 2 objects and operations
-** introducing python objects
+** chapter 4: introducing python objects
 
 #+begin_quote
 This chapter begins our tour of the Python language. In an informal sense, in Python we do things with stuff. “Things” take the form of operations like addition and concatenation, and “stuff ” refers to the objects on which we perform those operations. In this part of the book, our focus is on that stuff, and the things our programs can do with it.
 #+end_quote
 
 *** the python conceptual hierarchy
+
+1. programs are composed of modules
+2. modules contain statements
+3. statements contain expressions
+4. expressions create and process objects.
+
 *** why use built-in objects?
+
+- make programs easy to write
+- are components of extensions
+- are often more efficient than custom data structures
+- are a standard part of the language
 *** python's core object types
-*** numbers
-*** strings
+
+| object type  | examples literals/creation |
+| [[Numbers]]      |                            |
+| [[Strings]]      |                            |
+| [[Lists]]        |                            |
+| [[Dictionaries]] |                            |
+| [[Tuples]]       |                            |
+| [[Files]]        |                            |
+| [[Sets]]         |                            |
+
+
+*** Numbers
+*** Strings
 **** sequence operations
 **** immutability
 **** type-specific methods
 **** getting help
 **** other ways to code strings
 **** unicode strings
-*** lists
+*** Lists
 
-*** dictionaries
-*** tuples
+*** Dictionaries
+
+#+begin_quote
+Unlike strings and lists, Python dictionaries are not sequences at all but are instead the only core member of a category known as /mappings/. Mappings are also collections of other objects, but they store objects by /key/ instead of by relative position.
+#+end_quote
+
+
+*** Tuples
 **** why tuples?
-*** files
+*** Files
 *** other object types
+**** Sets
+**** Booleans and None
+**** types
+**** type hinting
+**** user-defined objects
+**** and everything else
 *** chapter summary
 *** test your knowledge: quiz
 *** test your knowledge: answers
-** numbers and expressions
+** chapter 5: numbers and expressions
 *** chapter summary
 *** test your knowledge: quiz
 *** test your knowledge: answers
-** the dynamic typing interlude
+** chapter 6: the dynamic typing interlude
 *** chapter summary
 *** test your knowledge: quiz
 *** test your knowledge: answers
-** string fundamentals
+** chapter 7: string fundamentals
 *** chapter summary
 *** test your knowledge: quiz
 *** test your knowledge: answers
-** lists and dictionaries
+** chapter 8: lists and dictionaries
 *** chapter summary
 *** test your knowledge: quiz
 *** test your knowledge: answers
-** tuples, files, and everything else
+** chapter 9: tuples, files, and everything else
 *** chapter summary
 *** test your knowledge: quiz
 *** test your knowledge: answers
 * part 3 statements and syntax
-** introducing python statments
+** chapter 10: introducing python statments
 *** chapter summary
 *** test your knowledge: quiz
 *** test your knowledge: answers
-** assignments, expressions, and prints
+** chapter 11: assignments, expressions, and prints
 *** chapter summary
 *** test your knowledge: quiz
 *** test your knowledge: answers
-** if and match selections
+** chapter 12: if and match selections
 *** chapter summary
 *** test your knowledge: quiz
 *** test your knowledge: answers
-** ~while~ and ~for~ loops
+** chapter 13: ~while~ and ~for~ loops
 *** chapter summary
 *** test your knowledge: quiz
 *** test your knowledge: answers
-** iterations and comprehensions
+** chapter 14: iterations and comprehensions
 *** chapter summary
 *** test your knowledge: quiz
 *** test your knowledge: answers
-** the documentation interlude
+** chapter 15: the documentation interlude
 *** chapter summary
 *** test your knowledge: quiz
 *** test your knowledge: answers
 * part 4 functions and generators
-** function basics
+** chapter 16: function basics
 *** chapter summary
 *** test your knowledge: quiz
 *** test your knowledge: answers
-** scopes
+** chapter 17: scopes
 *** chapter summary
 *** test your knowledge: quiz
 *** test your knowledge: answers
-** arguments
+** chapter 18: arguments
 *** chapter summary
 *** test your knowledge: quiz
 *** test your knowledge: answers
-** function odds and ends
+** chapter 19: function odds and ends
 *** chapter summary
 *** test your knowledge: quiz
 *** test your knowledge: answers
-** comprehensions and generators
+** chapter 20: comprehensions and generators
 *** chapter summary
 *** test your knowledge: quiz
 *** test your knowledge: answers
-** the benchmark interlude
+** chapter 21: the benchmark interlude
 *** chapter summary
 *** test your knowledge: quiz
 *** test your knowledge: answers
 * part 5 modules and packages
-** modules: the big picture
+** chapter 22: modules: the big picture
 *** chapter summary
 *** test your knowledge: quiz
 *** test your knowledge: answers
-** module coding basics
+** chapter 23: module coding basics
+*** creating modules
+*** using modules
+*** module namespaces
+*** reloading modules
 *** chapter summary
 *** test your knowledge: quiz
 *** test your knowledge: answers
-** module packages
+** chapter 24: module packages
 *** chapter summary
 *** test your knowledge: quiz
 *** test your knowledge: answers
-** module odds and ends
+** chapter 25: module odds and ends
 *** chapter summary
 *** test your knowledge: quiz
 *** test your knowledge: answers
 * part 6 classes and oop
-** oop: the big picture
+** chapter 26: oop: the big picture
 *** chapter summary
 *** test your knowledge: quiz
 *** test your knowledge: answers
-** class coding basics
+** chapter 27: class coding basics
 *** chapter summary
 *** test your knowledge: quiz
 *** test your knowledge: answers
-** a more realistic example
+** chapter 28: a more realistic example
 *** chapter summary
 *** test your knowledge: quiz
 *** test your knowledge: answers
-** class coding details
+** chapter 29: class coding details
 *** chapter summary
 *** test your knowledge: quiz
 *** test your knowledge: answers
-** operator overloading
+** chapter 30: operator overloading
 *** chapter summary
 *** test your knowledge: quiz
 *** test your knowledge: answers
-** designing with classes
+** chapter 31: designing with classes
 *** chapter summary
 *** test your knowledge: quiz
 *** test your knowledge: answers
-** class odds and ends
+** chapter 32: class odds and ends
 *** chapter summary
 *** test your knowledge: quiz
 *** test your knowledge: answers
 * part 7 exceptions
-** exception basics
+** chapter 33: exception basics
 *** chapter summary
 *** test your knowledge: quiz
 *** test your knowledge: answers
-** exception coding details
+** chapter 34: exception coding details
 *** chapter summary
 *** test your knowledge: quiz
 *** test your knowledge: answers
-** excpetion objects
+** chapter 35: excpetion objects
 *** chapter summary
 *** test your knowledge: quiz
 *** test your knowledge: answers
-** exception odds and ends
+** chapter 36: exception odds and ends
 *** chapter summary
 *** test your knowledge: quiz
 *** test your knowledge: answers
 * part 8 advanced topics
-** unicode and byte strings
+** chapter 37: unicode and byte strings
 *** chapter summary
 *** test your knowledge: quiz
 *** test your knowledge: answers
-** managed attributes
+** chapter 38: managed attributes
 *** chapter summary
 *** test your knowledge: quiz
 *** test your knowledge: answers
-** decorators
+** chapter 39: decorators
 *** chapter summary
 *** test your knowledge: quiz
 *** test your knowledge: answers
-** metaclasses and inheritance
+** chapter 40: metaclasses and inheritance
 *** chapter summary
 *** test your knowledge: quiz
 *** test your knowledge: answers
-** all good things
+** chapter 41: all good things
 * part 9 appendixes
 ** A platform usage tips
 ** B solutions to end-of-part exercises
